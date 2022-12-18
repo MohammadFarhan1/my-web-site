@@ -5,6 +5,8 @@ function palindrome(){
     {
         y+=x[i];
     }
+    if(x.length <= 10){
+   
     if(x==y)
     {
         alert("This is Palindrome");
@@ -13,4 +15,8 @@ function palindrome(){
      {
         alert("This is not Palindrome");
      }
+    }
+    else{
+        alert("Your String is very long")
+    }
 }
